@@ -23,6 +23,11 @@ The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 
 * [Source Code](https://github.com/CoutinhoLab/Q-TB/)
 * Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos24jm)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos24jm) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
