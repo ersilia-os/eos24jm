@@ -1,6 +1,6 @@
 # QcrB Inhibition (M. tuberculosis)
 
-The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacteria's dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.
+The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacterias dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.
 
 This model was incorporated on 2023-04-06.
 
@@ -39,6 +39,8 @@ Below are the **Output Columns** of the model:
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `3`
+- **Environment Size (Mb):** `791`
 
 
 ### References
