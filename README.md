@@ -41,7 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `3`
 - **Environment Size (Mb):** `791`
+- **Image Size (Mb):** `762.27`
 
+**Computational Performance (seconds):**
+- 10 inputs: `30.68`
+- 100 inputs: `20.74`
+- 10000 inputs: `278.39`
 
 ### References
 - **Source Code**: [https://github.com/CoutinhoLab/Q-TB/](https://github.com/CoutinhoLab/Q-TB/)
