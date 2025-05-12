@@ -3,34 +3,45 @@
     "Slug": "qcrb-tb",
     "Status": "Ready",
     "Title": "QcrB Inhibition (M. tuberculosis)",
-    "Description": "The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacteria's dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.",
-    "Mode": "Pretrained",
-    "Task": [
-        "Classification"
-    ],
+    "Description": "The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacteria's dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
+    "Biomedical Area": [
+        "Tuberculosis"
+    ],
+    "Target Organism": [
+        "Mycobacterium tuberculosis"
+    ],
     "Output": [
         "Other value"
     ],
-    "Output Type": [
-        "Integer"
-    ],
-    "Output Shape": "Single",
-    "Interpretation": "Class 1: active(QIM < 1uM), Class 2:moerately active (1 < QIM < 20uM), Class 3:inactive (QIM > 20uM)",
+    "Output Dimension": 1,
+    "Output Consistency": "Fixed",
+    "Interpretation": "Class 1: active(QIM < 1uM), Class 2: moderately active (1 < QIM < 20uM), Class 3: inactive (QIM > 20uM)",
     "Tag": [
         "M.tuberculosis",
         "Antimicrobial activity"
     ],
     "Publication": "https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2022,
     "Source Code": "https://github.com/CoutinhoLab/Q-TB/",
-    "License": "CC",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip",
+    "License": "CC0-1.0",
+    "Contributor": "GemmaTuron",
+    "Incorporation Date": "2023-04-06",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos24jm",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip",
+    "Deployment": [
+        "Local"
     ]
 }
