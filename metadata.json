@@ -3,21 +3,18 @@
     "Slug": "qcrb-tb",
     "Status": "Ready",
     "Title": "QcrB Inhibition (M. tuberculosis)",
-    "Description": "The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacteria's dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.\n",
+    "Description": "The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacterias dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "Tuberculosis"
-    ],
-    "Target Organism": [
-        "Mycobacterium tuberculosis"
-    ],
     "Output": [
         "Other value"
     ],
@@ -28,20 +25,25 @@
         "M.tuberculosis",
         "Antimicrobial activity"
     ],
-    "Publication": "https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613",
+    "Biomedical Area": [
+        "Tuberculosis"
+    ],
+    "Target Organism": [
+        "Mycobacterium tuberculosis"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2022,
+    "Publication": "https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613",
     "Source Code": "https://github.com/CoutinhoLab/Q-TB/",
     "License": "CC0-1.0",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-04-06",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos24jm",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 3.0,
+    "Environment Size": 791.0
 }
