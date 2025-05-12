@@ -50,4 +50,4 @@ with open(output_file, "w") as f:
     writer = csv.writer(f)
     writer.writerow(["class"])  # header
     for o in outputs:
-        writer.writerow([o])
+        writer.writerow([int(o)])
