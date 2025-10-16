@@ -2,8 +2,7 @@
 
 The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacterias dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.
 
-This model was incorporated on 2023-04-06.
-
+This model was incorporated on 2023-04-06.Last packaged on 2025-10-16.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `3`
 - **Environment Size (Mb):** `805`
-- **Image Size (Mb):** `762.27`
+- **Image Size (Mb):** `779.55`
 
 **Computational Performance (seconds):**
-- 10 inputs: `30.68`
-- 100 inputs: `20.74`
-- 10000 inputs: `278.39`
+- 10 inputs: `27.68`
+- 100 inputs: `17.6`
+- 10000 inputs: `55.02`
 
 ### References
 - **Source Code**: [https://github.com/CoutinhoLab/Q-TB/](https://github.com/CoutinhoLab/Q-TB/)
