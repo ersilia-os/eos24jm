@@ -38,6 +38,8 @@
     "License": "CC0-1.0",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-04-06",
+    "Last Packaging Date": "2025-10-16",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos24jm",
     "Docker Architecture": [
@@ -46,10 +48,10 @@
     ],
     "Model Size": 3.0,
     "Environment Size": 805.0,
-    "Image Size": 762.27,
-    "Computational Performance 1": 30.68,
-    "Computational Performance 2": 20.37,
-    "Computational Performance 3": 20.74,
-    "Computational Performance 4": 67.44,
-    "Computational Performance 5": 278.39
+    "Image Size": 779.55,
+    "Computational Performance 1": 27.68,
+    "Computational Performance 2": 17.36,
+    "Computational Performance 3": 17.6,
+    "Computational Performance 4": 24.24,
+    "Computational Performance 5": 55.02
 }
