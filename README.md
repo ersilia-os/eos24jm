@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/CoutinhoLab/Q-TB/](https://github.com/CoutinhoLab/Q-TB/)
-- **Publication**: [https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613](https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613)
+- **Publication**: [https://doi.org/10.1021/acsomega.2c01613](https://doi.org/10.1021/acsomega.2c01613)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2022`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
