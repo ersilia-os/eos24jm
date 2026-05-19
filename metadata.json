@@ -22,7 +22,6 @@
     "Output Consistency": "Fixed",
     "Interpretation": "Class 1: active(QIM < 1uM), Class 2: moderately active (1 < QIM < 20uM), Class 3: inactive (QIM > 20uM)",
     "Tag": [
-        "M.tuberculosis",
         "Antimicrobial activity"
     ],
     "Biomedical Area": [
