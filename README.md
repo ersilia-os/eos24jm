@@ -1,6 +1,6 @@
 # QcrB Inhibition (M. tuberculosis)
 
-The cytochrome bcc complex (QcrB) is a subunit of the mycobacterial cyt-bcc-aa3 oxidoreductase in the electron transport chain (ETC), and it has been suggested as a good M.tb target due to the bacterias dependence on oxidative phosphorylation for its growth. The authors use a dataset of 352 molecules, of which 277 are classified as active (QIM < 1 uM), 58 as moderately active ( 1 > QIM < 20 uM) and 78 as inactive (QIM > 20). Qim refers to quantification of intracellular mycobacteria.
+Grades compounds for inhibition of QcrB, a subunit of the cytochrome bc1 complex in Mycobacterium tuberculosis and the target of several clinical-stage antitubercular agents. Khan and colleagues assembled reported QcrB inhibitors and applied machine learning to separate them by potency, reporting the result as an ordinal class rather than a continuous value. The three classes run from active below 1 uM, through moderate activity, to inactive above 20 uM, so the numeric output decreases as potency increases.
 
 This model was incorporated on 2023-04-06.Last packaged on 2025-10-16.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-04-06.Last packaged on 2025-10-16.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Class 1: active(QIM < 1uM), Class 2: moderately active (1 < QIM < 20uM), Class 3: inactive (QIM > 20uM)
+- **Interpretation:** Predicted QcrB activity class, where 1 is active below 1 uM and 3 is inactive above 20 uM.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
