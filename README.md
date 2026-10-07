@@ -1,6 +1,6 @@
 # QcrB Inhibition (M. tuberculosis)
 
-Grades compounds for inhibition of QcrB, a subunit of the cytochrome bc1 complex in Mycobacterium tuberculosis and the target of several clinical-stage antitubercular agents. Khan and colleagues assembled reported QcrB inhibitors and applied machine learning to separate them by potency, reporting the result as an ordinal class rather than a continuous value. The three classes run from active below 1 uM, through moderate activity, to inactive above 20 uM, so the numeric output decreases as potency increases.
+Grades compounds for inhibition of QcrB, a subunit of the mycobacterial cytochrome bcc-aa3 oxidoreductase and the target of Q203 and other clinical-stage antitubercular agents. Khan and colleagues took 350 molecules with intracellular Mycobacterium tuberculosis potency values from a patent, 214 of them active, 58 moderately active and 78 inactive, and found a support vector machine over ECFP6 fingerprints separated the three classes best. Known imidazopyridine amide inhibitors were recovered as actives.
 
 This model was incorporated on 2023-04-06.Last packaged on 2025-10-16.
 
