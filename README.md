@@ -2,7 +2,8 @@
 
 Grades compounds for inhibition of QcrB, a subunit of the mycobacterial cytochrome bcc-aa3 oxidoreductase and the target of Q203 and other clinical-stage antitubercular agents. Khan and colleagues took 350 molecules with intracellular Mycobacterium tuberculosis potency values from a patent, 214 of them active, 58 moderately active and 78 inactive, and found a support vector machine over ECFP6 fingerprints separated the three classes best. Known imidazopyridine amide inhibitors were recovered as actives.
 
-This model was incorporated on 2023-04-06.Last packaged on 2025-10-16.
+This model was incorporated on 2023-04-06.
+Last packaged on 2025-10-16.
 
 ## Information
 ### Identifiers
@@ -14,7 +15,7 @@ This model was incorporated on 2023-04-06.Last packaged on 2025-10-16.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `Tuberculosis`
 - **Target Organism:** `Mycobacterium tuberculosis`
-- **Tags:** `M.tuberculosis`, `Antimicrobial activity`
+- **Tags:** `Antimicrobial activity`
 
 ### Input
 - **Input:** `Compound`
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos24jm](https://hub.docker.com/r/ersiliaos/eos24jm)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos24jm.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos24jm_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos24jm_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `3`
